@@ -1,2 +1,24 @@
 /* Init Tailwind */
-@tailwind base;@tailwind components;@tailwind utilities;/* Custom CSS */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom CSS */
+
+.navitem {
+    background-color: rgba(229, 231, 235, 0.5);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.timeline {
+    background-color: whitesmoke;
+    color: teal;
+}
