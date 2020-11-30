@@ -2,18 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
   
   const Header = () => (
-  <header className="bg-gray-100 p-3">
+  <header className="p-3 sticky top-0 z-10">
     <div className="flex items-center justify-between flex-wrap">
       <div className="block">
         <Link to="/"><span className="font-semibold text-xl tracking-tight text-gray-800">@fzoozai</span></Link>
       </div>
       <nav className="block">
-        <Link to="/"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light">Home</span></Link>
-        <Link to="/About"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light">About</span></Link>
-        <Link to="/Contact"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light">Contact</span></Link>
+        <Link to="/"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light border-double border-4">Home</span></Link>
+        <Link to="/About"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light border-double border-4">About</span></Link>
+        <Link to="/Contact"><span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem font-primary bg-primary_light border-double border-4">Contact</span></Link>
       </nav>
-      <div className="tags">
-      </div>
     </div>
   </header>
 );

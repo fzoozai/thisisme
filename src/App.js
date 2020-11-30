@@ -22,8 +22,8 @@ const App = () => (
     <Header />
     <Switch>
       <Route exact path="/">
-          <Home />
-          <Timeline />  
+        <Home />
+        <Timeline />  
       </Route>
       <Route exact path="/about">
         <About />
