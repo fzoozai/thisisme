@@ -1490,22 +1490,20 @@ video {
   --tw-divide-x-reverse: 1;
 }
 
-.divide-primary > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+.divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.divide-primary_light > :not([hidden]) ~ :not([hidden]){
-  border-color: rgb(157, 116, 72, 0.7);
+.divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+.dark .dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
 .divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -1691,94 +1689,84 @@ video {
           background-clip: text;
 }
 
-.bg-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.bg-blue_dracula_light{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.bg-primary_light{
-  background-color: rgb(157, 116, 72, 0.7);
+.bg-blue_dracula{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.group:hover .group-hover\:bg-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.group:hover .group-hover\:bg-blue_dracula_light{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.group:hover .group-hover\:bg-primary_light{
-  background-color: rgb(157, 116, 72, 0.7);
+.group:hover .group-hover\:bg-blue_dracula{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus-within\:bg-primary:focus-within{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.focus-within\:bg-blue_dracula_light:focus-within{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus-within\:bg-primary_light:focus-within{
-  background-color: rgb(157, 116, 72, 0.7);
+.focus-within\:bg-blue_dracula:focus-within{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.hover\:bg-primary:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.hover\:bg-blue_dracula_light:hover{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.hover\:bg-primary_light:hover{
-  background-color: rgb(157, 116, 72, 0.7);
+.hover\:bg-blue_dracula:hover{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:bg-primary:focus{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.focus\:bg-blue_dracula_light:focus{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:bg-primary_light:focus{
-  background-color: rgb(157, 116, 72, 0.7);
+.focus\:bg-blue_dracula:focus{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:bg-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.dark .dark\:bg-blue_dracula_light{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:bg-primary_light{
-  background-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:bg-blue_dracula{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .group:hover .dark\:group-hover\:bg-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.dark .group:hover .dark\:group-hover\:bg-blue_dracula_light{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .group:hover .dark\:group-hover\:bg-primary_light{
-  background-color: rgb(157, 116, 72, 0.7);
+.dark .group:hover .dark\:group-hover\:bg-blue_dracula{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus-within\:bg-primary:focus-within{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.dark .dark\:focus-within\:bg-blue_dracula_light:focus-within{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus-within\:bg-primary_light:focus-within{
-  background-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus-within\:bg-blue_dracula:focus-within{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:hover\:bg-primary:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.dark .dark\:hover\:bg-blue_dracula_light:hover{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:hover\:bg-primary_light:hover{
-  background-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:hover\:bg-blue_dracula:hover{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:bg-primary:focus{
-  --tw-bg-opacity: 1;
-  background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+.dark .dark\:focus\:bg-blue_dracula_light:focus{
+  background-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:bg-primary_light:focus{
-  background-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:bg-blue_dracula:focus{
+  background-color: rgb(31, 41, 55, 0.9);
 }
 
 .bg-none{
@@ -1817,160 +1805,160 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.from-primary{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.from-blue_dracula_light{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.from-primary_light{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.from-blue_dracula{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.via-primary{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.via-blue_dracula_light{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.via-primary_light{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.via-blue_dracula{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.to-primary{
-  --tw-gradient-to: #9D7448;
+.to-blue_dracula_light{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.to-primary_light{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.to-blue_dracula{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
-.hover\:from-primary:hover{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.hover\:from-blue_dracula_light:hover{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.hover\:from-primary_light:hover{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.hover\:from-blue_dracula:hover{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.hover\:via-primary:hover{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.hover\:via-blue_dracula_light:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.hover\:via-primary_light:hover{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.hover\:via-blue_dracula:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.hover\:to-primary:hover{
-  --tw-gradient-to: #9D7448;
+.hover\:to-blue_dracula_light:hover{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.hover\:to-primary_light:hover{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.hover\:to-blue_dracula:hover{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:from-primary:focus{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.focus\:from-blue_dracula_light:focus{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.focus\:from-primary_light:focus{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.focus\:from-blue_dracula:focus{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.focus\:via-primary:focus{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.focus\:via-blue_dracula_light:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.focus\:via-primary_light:focus{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.focus\:via-blue_dracula:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.focus\:to-primary:focus{
-  --tw-gradient-to: #9D7448;
+.focus\:to-blue_dracula_light:focus{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:to-primary_light:focus{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.focus\:to-blue_dracula:focus{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:from-primary{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:from-blue_dracula_light{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:from-primary_light{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:from-blue_dracula{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:via-primary{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:via-blue_dracula_light{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:via-primary_light{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:via-blue_dracula{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:to-primary{
-  --tw-gradient-to: #9D7448;
+.dark .dark\:to-blue_dracula_light{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:to-primary_light{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.dark .dark\:to-blue_dracula{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:hover\:from-primary:hover{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:hover\:from-blue_dracula_light:hover{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:hover\:from-primary_light:hover{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:hover\:from-blue_dracula:hover{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:hover\:via-primary:hover{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:hover\:via-blue_dracula_light:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:hover\:via-primary_light:hover{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:hover\:via-blue_dracula:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:hover\:to-primary:hover{
-  --tw-gradient-to: #9D7448;
+.dark .dark\:hover\:to-blue_dracula_light:hover{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:hover\:to-primary_light:hover{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.dark .dark\:hover\:to-blue_dracula:hover{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:from-primary:focus{
-  --tw-gradient-from: #9D7448;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:focus\:from-blue_dracula_light:focus{
+  --tw-gradient-from: rgb(31, 41, 55, 0.5);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:focus\:from-primary_light:focus{
-  --tw-gradient-from: rgb(157, 116, 72, 0.7);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:focus\:from-blue_dracula:focus{
+  --tw-gradient-from: rgb(31, 41, 55, 0.9);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:focus\:via-primary:focus{
-  --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:focus\:via-blue_dracula_light:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:focus\:via-primary_light:focus{
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+.dark .dark\:focus\:via-blue_dracula:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
 }
 
-.dark .dark\:focus\:to-primary:focus{
-  --tw-gradient-to: #9D7448;
+.dark .dark\:focus\:to-blue_dracula_light:focus{
+  --tw-gradient-to: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:to-primary_light:focus{
-  --tw-gradient-to: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:to-blue_dracula:focus{
+  --tw-gradient-to: rgb(31, 41, 55, 0.9);
 }
 
 .bg-opacity-0{
@@ -2353,94 +2341,84 @@ video {
   border-collapse: separate;
 }
 
-.border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.border-blue_dracula_light{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.border-primary_light{
-  border-color: rgb(157, 116, 72, 0.7);
+.border-blue_dracula{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.group:hover .group-hover\:border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.group:hover .group-hover\:border-blue_dracula_light{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.group:hover .group-hover\:border-primary_light{
-  border-color: rgb(157, 116, 72, 0.7);
+.group:hover .group-hover\:border-blue_dracula{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus-within\:border-primary:focus-within{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.focus-within\:border-blue_dracula_light:focus-within{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus-within\:border-primary_light:focus-within{
-  border-color: rgb(157, 116, 72, 0.7);
+.focus-within\:border-blue_dracula:focus-within{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.hover\:border-primary:hover{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.hover\:border-blue_dracula_light:hover{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.hover\:border-primary_light:hover{
-  border-color: rgb(157, 116, 72, 0.7);
+.hover\:border-blue_dracula:hover{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:border-primary:focus{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.focus\:border-blue_dracula_light:focus{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:border-primary_light:focus{
-  border-color: rgb(157, 116, 72, 0.7);
+.focus\:border-blue_dracula:focus{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.dark .dark\:border-blue_dracula_light{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:border-primary_light{
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:border-blue_dracula{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .group:hover .dark\:group-hover\:border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.dark .group:hover .dark\:group-hover\:border-blue_dracula_light{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .group:hover .dark\:group-hover\:border-primary_light{
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .group:hover .dark\:group-hover\:border-blue_dracula{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus-within\:border-primary:focus-within{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.dark .dark\:focus-within\:border-blue_dracula_light:focus-within{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus-within\:border-primary_light:focus-within{
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus-within\:border-blue_dracula:focus-within{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:hover\:border-primary:hover{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.dark .dark\:hover\:border-blue_dracula_light:hover{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:hover\:border-primary_light:hover{
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:hover\:border-blue_dracula:hover{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:border-primary:focus{
-  --tw-border-opacity: 1;
-  border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+.dark .dark\:focus\:border-blue_dracula_light:focus{
+  border-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:border-primary_light:focus{
-  border-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:border-blue_dracula:focus{
+  border-color: rgb(31, 41, 55, 0.9);
 }
 
 .border-opacity-0{
@@ -8001,40 +7979,36 @@ video {
   padding-left: 0.875rem;
 }
 
-.placeholder-primary::placeholder{
-  --tw-placeholder-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+.placeholder-blue_dracula_light::placeholder{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.placeholder-primary_light::placeholder{
-  color: rgb(157, 116, 72, 0.7);
+.placeholder-blue_dracula::placeholder{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:placeholder-primary:focus::placeholder{
-  --tw-placeholder-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+.focus\:placeholder-blue_dracula_light:focus::placeholder{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:placeholder-primary_light:focus::placeholder{
-  color: rgb(157, 116, 72, 0.7);
+.focus\:placeholder-blue_dracula:focus::placeholder{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:placeholder-primary::placeholder{
-  --tw-placeholder-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+.dark .dark\:placeholder-blue_dracula_light::placeholder{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:placeholder-primary_light::placeholder{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:placeholder-blue_dracula::placeholder{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:placeholder-primary:focus::placeholder{
-  --tw-placeholder-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+.dark .dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:placeholder-primary_light:focus::placeholder{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+  color: rgb(31, 41, 55, 0.9);
 }
 
 .placeholder-opacity-0::placeholder{
@@ -11339,52 +11313,52 @@ video {
   --tw-ring-inset: inset;
 }
 
-.ring-offset-primary{
-  --tw-ring-offset-color: #9D7448;
+.ring-offset-blue_dracula_light{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.ring-offset-primary_light{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.ring-offset-blue_dracula{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus-within\:ring-offset-primary:focus-within{
-  --tw-ring-offset-color: #9D7448;
+.focus-within\:ring-offset-blue_dracula_light:focus-within{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus-within\:ring-offset-primary_light:focus-within{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.focus-within\:ring-offset-blue_dracula:focus-within{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:ring-offset-primary:focus{
-  --tw-ring-offset-color: #9D7448;
+.focus\:ring-offset-blue_dracula_light:focus{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:ring-offset-primary_light:focus{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.focus\:ring-offset-blue_dracula:focus{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:ring-offset-primary{
-  --tw-ring-offset-color: #9D7448;
+.dark .dark\:ring-offset-blue_dracula_light{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:ring-offset-primary_light{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:ring-offset-blue_dracula{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus-within\:ring-offset-primary:focus-within{
-  --tw-ring-offset-color: #9D7448;
+.dark .dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus-within\:ring-offset-primary_light:focus-within{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:ring-offset-primary:focus{
-  --tw-ring-offset-color: #9D7448;
+.dark .dark\:focus\:ring-offset-blue_dracula_light:focus{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:ring-offset-primary_light:focus{
-  --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:ring-offset-blue_dracula:focus{
+  --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
 }
 
 .ring-offset-0{
@@ -11447,58 +11421,52 @@ video {
   --tw-ring-offset-width: 8px;
 }
 
-.ring-primary{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.ring-blue_dracula_light{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.ring-primary_light{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.ring-blue_dracula{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus-within\:ring-primary:focus-within{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.focus-within\:ring-blue_dracula_light:focus-within{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus-within\:ring-primary_light:focus-within{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.focus-within\:ring-blue_dracula:focus-within{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:ring-primary:focus{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.focus\:ring-blue_dracula_light:focus{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:ring-primary_light:focus{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.focus\:ring-blue_dracula:focus{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:ring-primary{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.dark .dark\:ring-blue_dracula_light{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:ring-primary_light{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:ring-blue_dracula{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus-within\:ring-primary:focus-within{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.dark .dark\:focus-within\:ring-blue_dracula_light:focus-within{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus-within\:ring-primary_light:focus-within{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus-within\:ring-blue_dracula:focus-within{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:ring-primary:focus{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+.dark .dark\:focus\:ring-blue_dracula_light:focus{
+  --tw-ring-color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:ring-primary_light:focus{
-  --tw-ring-color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:ring-blue_dracula:focus{
+  --tw-ring-color: rgb(31, 41, 55, 0.9);
 }
 
 .ring-opacity-0{
@@ -11725,94 +11693,84 @@ video {
   text-align: justify;
 }
 
-.text-primary{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.text-blue_dracula_light{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.text-primary_light{
-  color: rgb(157, 116, 72, 0.7);
+.text-blue_dracula{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.group:hover .group-hover\:text-primary{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.group:hover .group-hover\:text-blue_dracula_light{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.group:hover .group-hover\:text-primary_light{
-  color: rgb(157, 116, 72, 0.7);
+.group:hover .group-hover\:text-blue_dracula{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.focus-within\:text-primary:focus-within{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.focus-within\:text-blue_dracula_light:focus-within{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.focus-within\:text-primary_light:focus-within{
-  color: rgb(157, 116, 72, 0.7);
+.focus-within\:text-blue_dracula:focus-within{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.hover\:text-primary:hover{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.hover\:text-blue_dracula_light:hover{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.hover\:text-primary_light:hover{
-  color: rgb(157, 116, 72, 0.7);
+.hover\:text-blue_dracula:hover{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.focus\:text-primary:focus{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.focus\:text-blue_dracula_light:focus{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.focus\:text-primary_light:focus{
-  color: rgb(157, 116, 72, 0.7);
+.focus\:text-blue_dracula:focus{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:text-primary{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.dark .dark\:text-blue_dracula_light{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:text-primary_light{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:text-blue_dracula{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .group:hover .dark\:group-hover\:text-primary{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.dark .group:hover .dark\:group-hover\:text-blue_dracula_light{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .group:hover .dark\:group-hover\:text-primary_light{
-  color: rgb(157, 116, 72, 0.7);
+.dark .group:hover .dark\:group-hover\:text-blue_dracula{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus-within\:text-primary:focus-within{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.dark .dark\:focus-within\:text-blue_dracula_light:focus-within{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus-within\:text-primary_light:focus-within{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus-within\:text-blue_dracula:focus-within{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:hover\:text-primary:hover{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.dark .dark\:hover\:text-blue_dracula_light:hover{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:hover\:text-primary_light:hover{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:hover\:text-blue_dracula:hover{
+  color: rgb(31, 41, 55, 0.9);
 }
 
-.dark .dark\:focus\:text-primary:focus{
-  --tw-text-opacity: 1;
-  color: rgba(157, 116, 72, var(--tw-text-opacity));
+.dark .dark\:focus\:text-blue_dracula_light:focus{
+  color: rgb(31, 41, 55, 0.5);
 }
 
-.dark .dark\:focus\:text-primary_light:focus{
-  color: rgb(157, 116, 72, 0.7);
+.dark .dark\:focus\:text-blue_dracula:focus{
+  color: rgb(31, 41, 55, 0.9);
 }
 
 .text-opacity-0{
@@ -16651,17 +16609,9 @@ video {
   padding: 8px;
 }
 
-.footer {
-}
-
 .timeline {
   background-color: whitesmoke;
   font-family: 'Advent Pro', sans-serif;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
 }
 
 @media only screen and (max-width: 1169px) {
@@ -17624,22 +17574,20 @@ video {
     --tw-divide-x-reverse: 1;
   }
 
-  .sm\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .sm\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .sm\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .dark .sm\:dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -17825,94 +17773,84 @@ video {
             background-clip: text;
   }
 
-  .sm\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .sm\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .sm\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .sm\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .group:hover .sm\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .sm\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .group:hover .sm\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .sm\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .sm\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .sm\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .sm\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .sm\:dark\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .group:hover .sm\:dark\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .sm\:dark\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .sm\:dark\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .sm\:dark\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .sm\:dark\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:bg-none{
@@ -17951,160 +17889,160 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .sm\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .sm\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .sm\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .sm\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .sm\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .sm\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .sm\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .dark .sm\:dark\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .dark .sm\:dark\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .sm\:dark\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .sm\:dark\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .dark .sm\:dark\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:bg-opacity-0{
@@ -18487,94 +18425,84 @@ video {
     border-collapse: separate;
   }
 
-  .sm\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .sm\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .sm\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .sm\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .group:hover .sm\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .sm\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .group:hover .sm\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .sm\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .sm\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .sm\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .sm\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .sm\:dark\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .group:hover .sm\:dark\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .sm\:dark\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .sm\:dark\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .sm\:dark\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .sm\:dark\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:border-opacity-0{
@@ -24135,40 +24063,36 @@ video {
     padding-left: 0.875rem;
   }
 
-  .sm\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .sm\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .sm\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .sm\:dark\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .sm\:dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:placeholder-opacity-0::placeholder{
@@ -27460,52 +27384,52 @@ video {
     --tw-ring-inset: inset;
   }
 
-  .sm\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .sm\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .sm\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .sm\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .sm\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .dark .sm\:dark\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .dark .sm\:dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .dark .sm\:dark\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:ring-offset-0{
@@ -27568,58 +27492,52 @@ video {
     --tw-ring-offset-width: 8px;
   }
 
-  .sm\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .sm\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .sm\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .sm\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .sm\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .sm\:dark\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .sm\:dark\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .sm\:dark\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:ring-opacity-0{
@@ -27846,94 +27764,84 @@ video {
     text-align: justify;
   }
 
-  .sm\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .sm\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .sm\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .group:hover .sm\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .sm\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .group:hover .sm\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .sm\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .sm\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .sm\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .sm\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .sm\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .sm\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .sm\:dark\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .group:hover .sm\:dark\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .sm\:dark\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .sm\:dark\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .sm\:dark\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .sm\:dark\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .sm\:dark\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .sm\:dark\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .sm\:dark\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .sm\:dark\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .sm\:text-opacity-0{
@@ -33686,22 +33594,20 @@ video {
     --tw-divide-x-reverse: 1;
   }
 
-  .md\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .md\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .md\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .dark .md\:dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -33887,94 +33793,84 @@ video {
             background-clip: text;
   }
 
-  .md\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .md\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .md\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .md\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .group:hover .md\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .md\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .group:hover .md\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .md\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .md\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .md\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .md\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .md\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .md\:dark\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .group:hover .md\:dark\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .md\:dark\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .md\:dark\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .md\:dark\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .md\:dark\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:bg-none{
@@ -34013,160 +33909,160 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .md\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .md\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .md\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .md\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .md\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .md\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .md\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .md\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .dark .md\:dark\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .dark .md\:dark\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .md\:dark\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .md\:dark\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .dark .md\:dark\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
   .md\:bg-opacity-0{
@@ -34549,94 +34445,84 @@ video {
     border-collapse: separate;
   }
 
-  .md\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .md\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .md\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .md\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .group:hover .md\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .md\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .group:hover .md\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .md\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .md\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .md\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .md\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .md\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .md\:dark\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .group:hover .md\:dark\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .md\:dark\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .md\:dark\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .md\:dark\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .md\:dark\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:border-opacity-0{
@@ -40197,40 +40083,36 @@ video {
     padding-left: 0.875rem;
   }
 
-  .md\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .md\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .md\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .md\:dark\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .md\:dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:placeholder-opacity-0::placeholder{
@@ -43522,52 +43404,52 @@ video {
     --tw-ring-inset: inset;
   }
 
-  .md\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .md\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .md\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .md\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .md\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .md\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .dark .md\:dark\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .dark .md\:dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .dark .md\:dark\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:ring-offset-0{
@@ -43630,58 +43512,52 @@ video {
     --tw-ring-offset-width: 8px;
   }
 
-  .md\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .md\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .md\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .md\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .md\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .md\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .md\:dark\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .md\:dark\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .md\:dark\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:ring-opacity-0{
@@ -43908,94 +43784,84 @@ video {
     text-align: justify;
   }
 
-  .md\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .md\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .md\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .group:hover .md\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .md\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .group:hover .md\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .md\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .md\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .md\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .md\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .md\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .md\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .md\:dark\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .group:hover .md\:dark\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .md\:dark\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .md\:dark\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .md\:dark\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .md\:dark\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .md\:dark\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .md\:dark\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .md\:dark\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .md\:dark\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .md\:text-opacity-0{
@@ -49748,22 +49614,20 @@ video {
     --tw-divide-x-reverse: 1;
   }
 
-  .lg\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .lg\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .lg\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .dark .lg\:dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -49949,94 +49813,84 @@ video {
             background-clip: text;
   }
 
-  .lg\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .lg\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .lg\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .lg\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .group:hover .lg\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .lg\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .group:hover .lg\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .lg\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .lg\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .lg\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .lg\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .lg\:dark\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .group:hover .lg\:dark\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .lg\:dark\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .lg\:dark\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .lg\:dark\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .lg\:dark\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:bg-none{
@@ -50075,160 +49929,160 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .lg\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .lg\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .lg\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .lg\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .lg\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .lg\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .lg\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .dark .lg\:dark\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .dark .lg\:dark\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .lg\:dark\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .lg\:dark\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .dark .lg\:dark\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:bg-opacity-0{
@@ -50611,94 +50465,84 @@ video {
     border-collapse: separate;
   }
 
-  .lg\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .lg\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .lg\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .lg\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .group:hover .lg\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .lg\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .group:hover .lg\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .lg\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .lg\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .lg\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .lg\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .lg\:dark\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .group:hover .lg\:dark\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .lg\:dark\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .lg\:dark\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .lg\:dark\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .lg\:dark\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:border-opacity-0{
@@ -56259,40 +56103,36 @@ video {
     padding-left: 0.875rem;
   }
 
-  .lg\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .lg\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .lg\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .lg\:dark\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .lg\:dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:placeholder-opacity-0::placeholder{
@@ -59584,52 +59424,52 @@ video {
     --tw-ring-inset: inset;
   }
 
-  .lg\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .lg\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .lg\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .lg\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .lg\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .dark .lg\:dark\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .dark .lg\:dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .dark .lg\:dark\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:ring-offset-0{
@@ -59692,58 +59532,52 @@ video {
     --tw-ring-offset-width: 8px;
   }
 
-  .lg\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .lg\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .lg\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .lg\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .lg\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .lg\:dark\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .lg\:dark\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .lg\:dark\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:ring-opacity-0{
@@ -59970,94 +59804,84 @@ video {
     text-align: justify;
   }
 
-  .lg\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .lg\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .lg\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .group:hover .lg\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .lg\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .group:hover .lg\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .lg\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .lg\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .lg\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .lg\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .lg\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .lg\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .lg\:dark\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .group:hover .lg\:dark\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .lg\:dark\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .lg\:dark\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .lg\:dark\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .lg\:dark\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .lg\:dark\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .lg\:dark\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .lg\:dark\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .lg\:dark\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .lg\:text-opacity-0{
@@ -65810,22 +65634,20 @@ video {
     --tw-divide-x-reverse: 1;
   }
 
-  .xl\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .xl\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .xl\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .dark .xl\:dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -66011,94 +65833,84 @@ video {
             background-clip: text;
   }
 
-  .xl\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .xl\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .xl\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .xl\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .group:hover .xl\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .xl\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .group:hover .xl\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .xl\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .xl\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .xl\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .xl\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .xl\:dark\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .group:hover .xl\:dark\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .xl\:dark\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .xl\:dark\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .xl\:dark\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .xl\:dark\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:bg-none{
@@ -66137,160 +65949,160 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .xl\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .xl\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .xl\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .xl\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .xl\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .xl\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .xl\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .dark .xl\:dark\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .dark .xl\:dark\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .xl\:dark\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .xl\:dark\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .dark .xl\:dark\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:bg-opacity-0{
@@ -66673,94 +66485,84 @@ video {
     border-collapse: separate;
   }
 
-  .xl\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .xl\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .xl\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .xl\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .group:hover .xl\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .xl\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .group:hover .xl\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .xl\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .xl\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .xl\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .xl\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .xl\:dark\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .group:hover .xl\:dark\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .xl\:dark\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .xl\:dark\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .xl\:dark\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .xl\:dark\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:border-opacity-0{
@@ -72321,40 +72123,36 @@ video {
     padding-left: 0.875rem;
   }
 
-  .xl\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .xl\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .xl\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .xl\:dark\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .xl\:dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:placeholder-opacity-0::placeholder{
@@ -75646,52 +75444,52 @@ video {
     --tw-ring-inset: inset;
   }
 
-  .xl\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .xl\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .xl\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .xl\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .xl\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .dark .xl\:dark\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .dark .xl\:dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .dark .xl\:dark\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:ring-offset-0{
@@ -75754,58 +75552,52 @@ video {
     --tw-ring-offset-width: 8px;
   }
 
-  .xl\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .xl\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .xl\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .xl\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .xl\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .xl\:dark\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .xl\:dark\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .xl\:dark\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:ring-opacity-0{
@@ -76032,94 +75824,84 @@ video {
     text-align: justify;
   }
 
-  .xl\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .xl\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .xl\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .group:hover .xl\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .xl\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .group:hover .xl\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .xl\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .xl\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .xl\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .xl\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .xl\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .xl\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .xl\:dark\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .group:hover .xl\:dark\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .xl\:dark\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .xl\:dark\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .xl\:dark\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .xl\:dark\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .xl\:dark\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .xl\:dark\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .xl\:dark\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .xl\:dark\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .xl\:text-opacity-0{
@@ -81872,22 +81654,20 @@ video {
     --tw-divide-x-reverse: 1;
   }
 
-  .\32xl\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .\32xl\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:divide-primary > :not([hidden]) ~ :not([hidden]){
-    --tw-divide-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-divide-opacity));
+  .dark .\32xl\:dark\:divide-blue_dracula_light > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:divide-primary_light > :not([hidden]) ~ :not([hidden]){
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:divide-blue_dracula > :not([hidden]) ~ :not([hidden]){
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:divide-solid > :not([hidden]) ~ :not([hidden]){
@@ -82073,94 +81853,84 @@ video {
             background-clip: text;
   }
 
-  .\32xl\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .\32xl\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .\32xl\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .group:hover .\32xl\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .\32xl\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .group:hover .\32xl\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .\32xl\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .\32xl\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .\32xl\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .\32xl\:dark\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:bg-primary{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .group:hover .\32xl\:dark\:group-hover\:bg-blue_dracula_light{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:bg-primary_light{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .\32xl\:dark\:group-hover\:bg-blue_dracula{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus-within\:bg-primary:focus-within{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .\32xl\:dark\:focus-within\:bg-blue_dracula_light:focus-within{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus-within\:bg-primary_light:focus-within{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus-within\:bg-blue_dracula:focus-within{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .\32xl\:dark\:hover\:bg-blue_dracula_light:hover{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:hover\:bg-primary_light:hover{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:hover\:bg-blue_dracula:hover{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:bg-primary:focus{
-    --tw-bg-opacity: 1;
-    background-color: rgba(157, 116, 72, var(--tw-bg-opacity));
+  .dark .\32xl\:dark\:focus\:bg-blue_dracula_light:focus{
+    background-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:bg-primary_light:focus{
-    background-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:bg-blue_dracula:focus{
+    background-color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:bg-none{
@@ -82199,160 +81969,160 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .\32xl\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .\32xl\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .\32xl\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .\32xl\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .\32xl\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .\32xl\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .\32xl\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:from-primary{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:from-blue_dracula_light{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:from-primary_light{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:from-blue_dracula{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:via-primary{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:via-blue_dracula_light{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:via-primary_light{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:via-blue_dracula{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:to-primary{
-    --tw-gradient-to: #9D7448;
+  .dark .\32xl\:dark\:to-blue_dracula_light{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:to-primary_light{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:to-blue_dracula{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:hover\:from-primary:hover{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:hover\:from-blue_dracula_light:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:hover\:from-primary_light:hover{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:hover\:from-blue_dracula:hover{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:hover\:via-primary:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:hover\:via-blue_dracula_light:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:hover\:via-primary_light:hover{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:hover\:via-blue_dracula:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:hover\:to-primary:hover{
-    --tw-gradient-to: #9D7448;
+  .dark .\32xl\:dark\:hover\:to-blue_dracula_light:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:hover\:to-primary_light:hover{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:hover\:to-blue_dracula:hover{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:from-primary:focus{
-    --tw-gradient-from: #9D7448;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:focus\:from-blue_dracula_light:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.5);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:focus\:from-primary_light:focus{
-    --tw-gradient-from: rgb(157, 116, 72, 0.7);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:focus\:from-blue_dracula:focus{
+    --tw-gradient-from: rgb(31, 41, 55, 0.9);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:focus\:via-primary:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), #9D7448, var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:focus\:via-blue_dracula_light:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.5), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:focus\:via-primary_light:focus{
-    --tw-gradient-stops: var(--tw-gradient-from), rgb(157, 116, 72, 0.7), var(--tw-gradient-to, rgba(157, 116, 72, 0));
+  .dark .\32xl\:dark\:focus\:via-blue_dracula:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), rgb(31, 41, 55, 0.9), var(--tw-gradient-to, rgba(31, 41, 55, 0));
   }
 
-  .dark .\32xl\:dark\:focus\:to-primary:focus{
-    --tw-gradient-to: #9D7448;
+  .dark .\32xl\:dark\:focus\:to-blue_dracula_light:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:to-primary_light:focus{
-    --tw-gradient-to: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:to-blue_dracula:focus{
+    --tw-gradient-to: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:bg-opacity-0{
@@ -82735,94 +82505,84 @@ video {
     border-collapse: separate;
   }
 
-  .\32xl\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .\32xl\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .\32xl\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .group:hover .\32xl\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .\32xl\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .group:hover .\32xl\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .\32xl\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .\32xl\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .\32xl\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .\32xl\:dark\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:border-primary{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .group:hover .\32xl\:dark\:group-hover\:border-blue_dracula_light{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:border-primary_light{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .\32xl\:dark\:group-hover\:border-blue_dracula{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus-within\:border-primary:focus-within{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .\32xl\:dark\:focus-within\:border-blue_dracula_light:focus-within{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus-within\:border-primary_light:focus-within{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus-within\:border-blue_dracula:focus-within{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:hover\:border-primary:hover{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .\32xl\:dark\:hover\:border-blue_dracula_light:hover{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:hover\:border-primary_light:hover{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:hover\:border-blue_dracula:hover{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:border-primary:focus{
-    --tw-border-opacity: 1;
-    border-color: rgba(157, 116, 72, var(--tw-border-opacity));
+  .dark .\32xl\:dark\:focus\:border-blue_dracula_light:focus{
+    border-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:border-primary_light:focus{
-    border-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:border-blue_dracula:focus{
+    border-color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:border-opacity-0{
@@ -88383,40 +88143,36 @@ video {
     padding-left: 0.875rem;
   }
 
-  .\32xl\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .\32xl\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .\32xl\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:placeholder-primary::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .\32xl\:dark\:placeholder-blue_dracula_light::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:placeholder-primary_light::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:placeholder-blue_dracula::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:placeholder-primary:focus::placeholder{
-    --tw-placeholder-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-placeholder-opacity));
+  .dark .\32xl\:dark\:focus\:placeholder-blue_dracula_light:focus::placeholder{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:placeholder-primary_light:focus::placeholder{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:placeholder-blue_dracula:focus::placeholder{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:placeholder-opacity-0::placeholder{
@@ -91708,52 +91464,52 @@ video {
     --tw-ring-inset: inset;
   }
 
-  .\32xl\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .\32xl\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .\32xl\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .\32xl\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:ring-offset-primary{
-    --tw-ring-offset-color: #9D7448;
+  .dark .\32xl\:dark\:ring-offset-blue_dracula_light{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:ring-offset-primary_light{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:ring-offset-blue_dracula{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus-within\:ring-offset-primary:focus-within{
-    --tw-ring-offset-color: #9D7448;
+  .dark .\32xl\:dark\:focus-within\:ring-offset-blue_dracula_light:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus-within\:ring-offset-primary_light:focus-within{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus-within\:ring-offset-blue_dracula:focus-within{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:ring-offset-primary:focus{
-    --tw-ring-offset-color: #9D7448;
+  .dark .\32xl\:dark\:focus\:ring-offset-blue_dracula_light:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:ring-offset-primary_light:focus{
-    --tw-ring-offset-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:ring-offset-blue_dracula:focus{
+    --tw-ring-offset-color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:ring-offset-0{
@@ -91816,58 +91572,52 @@ video {
     --tw-ring-offset-width: 8px;
   }
 
-  .\32xl\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .\32xl\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .\32xl\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .\32xl\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:ring-primary{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .\32xl\:dark\:ring-blue_dracula_light{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:ring-primary_light{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:ring-blue_dracula{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus-within\:ring-primary:focus-within{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .\32xl\:dark\:focus-within\:ring-blue_dracula_light:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus-within\:ring-primary_light:focus-within{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus-within\:ring-blue_dracula:focus-within{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:ring-primary:focus{
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(157, 116, 72, var(--tw-ring-opacity));
+  .dark .\32xl\:dark\:focus\:ring-blue_dracula_light:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:ring-primary_light:focus{
-    --tw-ring-color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:ring-blue_dracula:focus{
+    --tw-ring-color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:ring-opacity-0{
@@ -92094,94 +91844,84 @@ video {
     text-align: justify;
   }
 
-  .\32xl\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .\32xl\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .group:hover .\32xl\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .group:hover .\32xl\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .group:hover .\32xl\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .group:hover .\32xl\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .\32xl\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .\32xl\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .\32xl\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .\32xl\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .\32xl\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .\32xl\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .\32xl\:dark\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:text-primary{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .group:hover .\32xl\:dark\:group-hover\:text-blue_dracula_light{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .group:hover .\32xl\:dark\:group-hover\:text-primary_light{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .group:hover .\32xl\:dark\:group-hover\:text-blue_dracula{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus-within\:text-primary:focus-within{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .\32xl\:dark\:focus-within\:text-blue_dracula_light:focus-within{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus-within\:text-primary_light:focus-within{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus-within\:text-blue_dracula:focus-within{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:hover\:text-primary:hover{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .\32xl\:dark\:hover\:text-blue_dracula_light:hover{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:hover\:text-primary_light:hover{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:hover\:text-blue_dracula:hover{
+    color: rgb(31, 41, 55, 0.9);
   }
 
-  .dark .\32xl\:dark\:focus\:text-primary:focus{
-    --tw-text-opacity: 1;
-    color: rgba(157, 116, 72, var(--tw-text-opacity));
+  .dark .\32xl\:dark\:focus\:text-blue_dracula_light:focus{
+    color: rgb(31, 41, 55, 0.5);
   }
 
-  .dark .\32xl\:dark\:focus\:text-primary_light:focus{
-    color: rgb(157, 116, 72, 0.7);
+  .dark .\32xl\:dark\:focus\:text-blue_dracula:focus{
+    color: rgb(31, 41, 55, 0.9);
   }
 
   .\32xl\:text-opacity-0{

@@ -6,8 +6,8 @@ module.exports = {
       'primary' : ['Advent Pro', 'sans-serif']
     },
     colors: {
-      primary: '#9D7448',
-      primary_light: 'rgb(157, 116, 72, 0.7)'
+      blue_dracula_light: 'rgb(31, 41, 55, 0.5)',
+      blue_dracula: 'rgb(31, 41, 55, 0.9)'
     },
     extend: {},
   },
