@@ -11,22 +11,6 @@
 /* Custom CSS */
 
 .navitem {
-    border-radius: 5px;
-    padding: 8px;
-}
-
-.timeline {
-    background-color: whitesmoke;
-    font-family: 'Advent Pro', sans-serif;
-}
-
-
-@media only screen and (max-width: 1169px) {
-    /* .vertical-timeline--animate */
-  .vertical-timeline-element--work.bounce-in {
-      visibility: visible;
-      -webkit-animation: cd-bounce-2-inverse 0.6s;
-      -moz-animation: cd-bounce-2-inverse 0.6s;
-      animation: cd-bounce-2-inverse 0.6s;
-    }   
+  border-radius: 5px;
+  padding: 8px;
 }
