@@ -12,10 +12,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Timeline from './components/Timeline';
-
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
 
 const App = () => (
   <Router>
@@ -23,7 +19,6 @@ const App = () => (
     <Switch>
       <Route exact path="/">
         <Home />
-        <Timeline />  
       </Route>
       <Route exact path="/about">
         <About />
