@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <div className="footer">
     <footer>
-      <div className="flex justify-center border-t-2 border-blue_dracula text-blue_dracula">
+      <div className="flex justify-center border-blue_dracula text-blue_dracula">
         <a
           href="https://fzoozai.me"
           className="text-gray-700 hover:text-gray-800 m-2  "
