@@ -17,5 +17,9 @@
       "",
       "export default $1;"
     ]
+  },
+  "Import react component": {
+    "prefix": "importComponent",
+    "body": ["import $1 from './components/$1';"]
   }
 }
