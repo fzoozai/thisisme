@@ -1,17 +1,13 @@
-import React from 'react';
-import './css/tailwind.css';
+import React from "react";
+import "./css/tailwind.css";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => (
   <Router>
