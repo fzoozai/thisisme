@@ -1,18 +1,19 @@
 module.exports = {
   purge: [],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'primary' : ['Advent Pro', 'sans-serif']
+      primary: ['Advent Pro', 'sans-serif']
     },
     colors: {
-      blue_dracula_light: 'rgb(31, 41, 55, 0.5)',
-      blue_dracula: 'rgb(31, 41, 55, 0.9)'
+      primary: 'rgb(31, 41, 55, 0.9)',
+      secondary: 'rgb(31, 41, 55, 0.5)',
+      red: 'red'
     },
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};
