@@ -1,0 +1,27 @@
+{
+	"Print to console": {
+		"prefix": "console",
+		"body": [
+			"console.log('$1', $1);"
+		],
+		"description": "Log output to console"
+	},
+	"Create react component": {
+		"prefix": "reactComponent",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const $1 = () => (",
+			"  <div>",
+			"    $1",
+			"  </div>",
+			");",
+			"",
+			"export default $1;"
+
+		]
+
+	}
+
+
+}
