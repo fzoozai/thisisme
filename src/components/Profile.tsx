@@ -8,8 +8,8 @@ const Profile = () => (
         style={{ backgroundImage: `url(${Chicago})` }}
       ></div>
       <div className="text-primary-900 mt-6 mb-8 max-w-md text-center px-4 font-primary">
-        I am a passionate software developer with experience in various program-
-        ming languages. The continuous change in the world of technology
+        I am a passionate software developer with experience in various
+        programming languages. The continuous change in the world of technology
         inspires me to always keep learning new skills and techniques to build
         meaningful and robust products.
       </div>
