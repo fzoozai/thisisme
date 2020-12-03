@@ -6,24 +6,24 @@ const Header = () => (
     <div className="flex items-center justify-between flex-wrap">
       <div className="block">
         <Link to="/">
-          <span className="font-semibold text-xl tracking-tight text-gray-800">
+          <span className="font-semibold text-xl tracking-tight text-gray-800 ml-2">
             @fzoozai
           </span>
         </Link>
       </div>
-      <nav className="block">
+      <nav className="block text-white">
         <Link to="/">
-          <span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
+          <span className="inline-block hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
             Home
           </span>
         </Link>
         <Link to="/About">
-          <span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
+          <span className="inline-block hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
             About
           </span>
         </Link>
         <Link to="/Contact">
-          <span className="inline-block text-gray-800 hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
+          <span className="inline-block hover:text-gray-600 mr-3 navitem bg-secondary border-primary border-2 font-bold font-primary">
             Contact
           </span>
         </Link>

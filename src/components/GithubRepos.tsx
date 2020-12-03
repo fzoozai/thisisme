@@ -14,7 +14,7 @@ const GithubRepos: React.FC = () => {
       const result = await axios.get(
         'https://api.github.com/users/fzoozai/repos?per_page=6'
       );
-      console.log('res', result.data);
+      // console.log('res', result.data);
       setRepos(result.data);
     };
     fetchData();
@@ -27,7 +27,9 @@ const GithubRepos: React.FC = () => {
         {repos.map((repo) => (
           <div key={repo.id} className="p-4">
             <div className="box-border h-32 w-32 p-4 border-4 rounded bg-primary hover:bg-gray-400">
-              <div className="text-xs text-white font-primary">{repo.name}</div>
+              <div className="text-base text-white font-primary">
+                {repo.name}
+              </div>
             </div>
           </div>
         ))}

@@ -14,8 +14,8 @@ const TechnologyOverview = () => (
       Technologies in use
     </h1>
     <div className="grid grid-cols-1 sm:grid-cols-3 sm:divide-x divide-primary-1">
-      <div className="px-2">
-        <h2 className="font-primary text-lg font-semibold">Frontend</h2>
+      <div className="px-4">
+        <h2 className="font-primary text-lg font-bold border-b-2">Frontend</h2>
         <div className="flex items-center">
           <svg
             className="mr-1"
@@ -52,8 +52,8 @@ const TechnologyOverview = () => (
           <p className="text-sm font-extralight">Tailwind CSS</p>
         </div>
       </div>
-      <div className="px-2">
-        <h2 className="font-primary text-lg font-semibold">Backend</h2>
+      <div className="px-4">
+        <h2 className="font-primary text-lg font-bold border-b-2">Backend</h2>
         <div className="flex items-center">
           <svg
             className="mr-1"
@@ -73,8 +73,8 @@ const TechnologyOverview = () => (
           <p className="text-sm font-extralight">Node JS</p>
         </div>
       </div>
-      <div className="px-2">
-        <h2 className="font-primary text-lg font-semibold">Devops</h2>
+      <div className="px-4">
+        <h2 className="font-primary text-lg font-bold border-b-2">Devops</h2>
         <div className="flex items-center">
           <svg
             className="mr-1"
