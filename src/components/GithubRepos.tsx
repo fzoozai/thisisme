@@ -21,14 +21,17 @@ const GithubRepos: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-center">
-      {repos.map((repo) => (
-        <div key={repo.id} className="p-4">
-          <div className="box-border h-32 w-32 p-4 border-4">
-            <div className="text-xs">{repo.name}</div>
+    <div className="flex flex-col items-center mt-4">
+      <h1 className="font-primary text-2xl pb-4 font-bold">Repositories</h1>
+      <div className="flex flex-wrap justify-center">
+        {repos.map((repo) => (
+          <div key={repo.id} className="p-4">
+            <div className="box-border h-32 w-32 p-4 border-4 rounded bg-primary hover:bg-gray-400">
+              <div className="text-xs text-white font-primary">{repo.name}</div>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
