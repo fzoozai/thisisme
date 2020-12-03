@@ -79,7 +79,6 @@ const TechnologyOverview = () => (
           <svg
             className="mr-1"
             id="Layer_1"
-            enable-background="new 0 0 512 512"
             viewBox="0 0 512 512"
             height="16"
             width="16"
