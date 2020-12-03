@@ -15,7 +15,7 @@ const GithubRepos: React.FC = () => {
       const result = await axios.get(
         'https://api.github.com/users/fzoozai/repos?per_page=6'
       );
-      console.log('res', result.data);
+      // console.log('res', result.data);
       setRepos(result.data);
     };
     fetchData();
