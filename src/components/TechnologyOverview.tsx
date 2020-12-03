@@ -14,7 +14,7 @@ const TechnologyOverview = () => (
       Technologies in use
     </h1>
     <div className="grid grid-cols-1 sm:grid-cols-3 sm:divide-x divide-primary-1">
-      <div className="px-4">
+      <div className="px-4 pb-2">
         <h2 className="font-primary text-lg font-bold border-b-2">Frontend</h2>
         <div className="flex items-center">
           <svg
@@ -52,7 +52,7 @@ const TechnologyOverview = () => (
           <p className="text-sm font-extralight">Tailwind CSS</p>
         </div>
       </div>
-      <div className="px-4">
+      <div className="px-4 pb-2">
         <h2 className="font-primary text-lg font-bold border-b-2">Backend</h2>
         <div className="flex items-center">
           <svg
