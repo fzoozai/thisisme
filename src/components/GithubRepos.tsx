@@ -12,7 +12,7 @@ const GithubRepos: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios.get(
-        'https://api.github.com/users/fzoozai/repos?per_page=10'
+        'https://api.github.com/users/fzoozai/repos?per_page=6'
       );
       console.log('res', result.data);
       setRepos(result.data);
@@ -21,9 +21,13 @@ const GithubRepos: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-wrap justify-center">
       {repos.map((repo) => (
-        <div key={repo.id}>{repo.name}</div>
+        <div key={repo.id} className="p-4">
+          <div className="box-border h-32 w-32 p-4 border-4">
+            <div className="text-xs">{repo.name}</div>
+          </div>
+        </div>
       ))}
     </div>
   );
