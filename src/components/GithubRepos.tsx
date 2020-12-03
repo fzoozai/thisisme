@@ -21,7 +21,7 @@ const GithubRepos: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center mt-4">
+    <div className="flex flex-col items-center mt-4 mb-4">
       <h1 className="font-primary text-2xl pb-4 font-bold">Repositories</h1>
       <div className="flex flex-wrap justify-center">
         {repos.map((repo) => (
