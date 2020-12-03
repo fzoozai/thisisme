@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-  <header className="p-3 sticky top-0 z-10">
+  <header className="p-3 sticky top-0 z-10 bg-gray-100 bg-opacity-75">
     <div className="flex items-center justify-between flex-wrap">
       <div className="block">
         <Link to="/">
